@@ -1,0 +1,32 @@
+.advanteges {
+   min-height: 473px;
+   padding: 73px 0 65px 0;
+   &__title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 30px;
+      color: #0D0D0D;
+   }
+   &__wrapper {
+      text-align: center;
+   }
+   &__subtitle {
+      margin-top: 35px;
+      font-size: 18px;
+      line-height: 29px;
+      color: #0D0D0D;
+      font-weight: bold;
+   }
+   &__text {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      color: #0D0D0D;
+      text-align: center;
+      strong {
+         color: #FF0000;
+         font-weight: bold;
+      }
+   }
+}
