@@ -1,11 +1,24 @@
+* {
+   font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+
+@import "libs/slick";
+
 @import "base/mixins";
 @import "base/variables";
+
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/advanteges";
 @import "blocks/shoes";
+@import "blocks/forms";
+@import "blocks/home-slider";
+@import "blocks/catalog";
+
+
+
+
 @import "blocks/media";
-* {
-   font-family: "Museo Sans Cyrl", sans-serif;
-}
+

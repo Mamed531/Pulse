@@ -26,3 +26,15 @@
       }
    }
 }
+
+.title {
+   text-align: center;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 30px;
+   color: #0D0D0D;
+   text-transform: uppercase;
+   &_regular {
+      font-weight: normal;
+   }
+}
