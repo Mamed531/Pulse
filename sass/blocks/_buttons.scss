@@ -13,6 +13,27 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 25px;
-
+   }
+   &__product {
+      position: absolute;
+      display: block;
+      width: 131px;
+      height: 40px;
+      text-decoration: none;
+      right: 10px;
+      bottom: 15px;
+      font-weight: 300;
+      font-size: 14px;
+      text-transform: uppercase;
+      &:hover {
+         text-decoration: none;
+         color:#FFFFFF;
+      }
+      span {
+         display: block;
+         padding-top: 10px;
+         text-align: center;
+         
+      }
    }
 }
