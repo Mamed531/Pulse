@@ -1,0 +1,10 @@
+.comments {
+   display: flex;
+   background: #fff;
+   &_wrapper {
+      display: flex;
+      background-color: #585825;
+      padding-top: 60px;
+      padding-bottom: 48px;
+   }
+}
