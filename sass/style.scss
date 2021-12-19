@@ -2,7 +2,6 @@
    font-family: "Museo Sans Cyrl", sans-serif;
 }
 
-
 @import "libs/slick";
 
 @import "base/mixins";
@@ -16,9 +15,10 @@
 @import "blocks/forms";
 @import "blocks/home-slider";
 @import "blocks/catalog";
+@import "blocks/comments";
+
 
 
 
 
 @import "blocks/media";
-
