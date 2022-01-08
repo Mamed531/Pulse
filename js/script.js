@@ -4,9 +4,9 @@ $(document).ready(function () {
       speed: 800,
       autoplay: true,
       autoplaySpeed: 2000,
-      adaptiveHeight: true,
-      prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-right.png"></button>',
-      nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-left.png"></button>'
+      //adaptiveHeight: true,
+      prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-left.png"></button>',
+      nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron-right.png"></button>'
    });
    // $('.js-open').each(function (i) {
    //    $(this).on("click", function (e) {

@@ -1,3 +1,14 @@
+@media (max-width: 991px) {
+   .home-slider {
+      .slick-next {
+         right: 0;
+      }
+      .slick-prev {
+         left: 0;
+      }
+   }
+}
+
 @media (max-width: 767px) {
    .header {
       &__oficial {
@@ -54,6 +65,42 @@
       &__title {
          font-size: 23px;
          line-height: 30px;
+      }
+   }
+   .feed {
+      &__item {
+         display: block;
+         margin-top: 50px;
+      }
+      &__img {
+         display: block;
+         margin: 0 auto 20px;
+      }
+      &__text {
+         margin: 0;
+         padding: 0;
+         text-align: center;
+      }
+   }
+   .footer {
+      .container {
+         padding: 0;
+      }
+      &__contacts {
+         position: relative;
+         width: 100%;
+         padding: 30px;
+      }
+      &__phone {
+         margin: 20px 0;
+      }
+      &__social {
+         a {
+            margin: 0 5px;
+            img {
+               width: 90%;
+            }
+         }
       }
    }
 }

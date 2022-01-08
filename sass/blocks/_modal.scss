@@ -1,0 +1,38 @@
+@media (min-width: 576px) {
+   .modal-dialog {
+      max-width: 382px;
+   }
+}
+
+.modal {
+   &__title {
+      font-weight: bold;
+      font-size: 19px;
+      text-align: center;
+      margin-bottom: 3px;
+   }
+   &__subtitle {
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+   }
+   &-content {
+      background: #f2f2f2;
+      border: 0;
+   }
+   &-body {
+      position: relative;
+      padding: 34px 38px 39px;
+      button.close {
+         position: absolute;
+         right: -36px;
+         top: -13px;
+         color: #fff;
+         span {
+            font-size: 36px;
+            color: $main-color;
+            text-shadow: none;
+         }
+      }
+   }
+}

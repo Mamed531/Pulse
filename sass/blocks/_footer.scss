@@ -1,0 +1,33 @@
+.footer {
+   position: relative;
+   &__contacts {
+      position: absolute;
+      width: 460px;
+      max-width: 100%;
+      padding: 50px;
+      background-color: $main-color;
+      z-index: 1999;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   &__phone {
+      display: inline-block;
+      margin: 36px 0;
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+         color: #fff;
+         text-decoration: none;
+      }
+   }
+   &__social {
+      a {
+         display: inline-block;
+         margin: 0 13px;
+      }
+
+   }
+}
