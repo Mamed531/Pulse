@@ -8,11 +8,21 @@
       padding-left: 20px;
       padding-right: 20px;
       font-size: 14px;
+      &.error {
+         border-color: red;
+         background: rgb(248, 216, 216);
+      }
    }
    .button {
       margin-top: 4px;
       &_main {
          width: 100%;
       }
+   }
+   label.error {
+      display: block;
+      margin: 8px 0;
+      text-align: center;
+      color: $main-color;
    }
 }

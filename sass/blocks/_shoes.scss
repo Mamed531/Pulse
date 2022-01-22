@@ -19,5 +19,8 @@
    &__form {
       max-width: 300px;
       padding: 36px 0;
+      label.error {
+         color: #FFFFFF !important;
+      }
    }
 }

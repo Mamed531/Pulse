@@ -30,6 +30,47 @@ $(document).ready(function () {
       });
    }
    toggleOpen(".js-open");
-   toggleOpen(".js-close")
+   toggleOpen(".js-close");
+
+   
+   $("input[type=tel]").inputmask("+7 (999) 999-99-99");  //static mask
+
+
+   function valideForms(form){
+      $(form).validate({
+         rules: {
+            name: {
+               required: true,
+               minlength: 3
+            },
+
+            email: {
+               required: true,
+               email: true
+            },
+
+            phone: "required"
+         },
+
+         messages: {
+            name: {
+               required: "Введите имя",
+               minlength: jQuery.validator.format("Не менее {0} символов!")
+            },
+            
+            email: {
+               required: "Введите email",
+               email: "Не правильный  формат"
+            },
+            phone: " Напишите номер"
+
+         }
+
+      });
+   };
+
+   valideForms('.shoes__form');
+   valideForms('.order__form');
+   valideForms('.callback__form');
 
 })
